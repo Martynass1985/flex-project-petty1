@@ -1,0 +1,52 @@
+.inter-w300 {
+    font-family: "Inter", serif;
+       font-optical-sizing: auto;
+       font-weight: 300;
+       font-style: normal;     
+}
+.inter-w400 {
+   font-family: "Inter", serif;
+       font-optical-sizing: auto;
+       font-weight: 400;
+       font-style: normal;
+}
+.inter-w500 {
+   font-family: "Inter", serif;
+       font-optical-sizing: auto;
+       font-weight: 500;
+       font-style: normal;
+}
+.inter-w600 {
+   font-family: "Inter", serif;
+       font-optical-sizing: auto;
+       font-weight: 600;
+       font-style: normal;
+}
+.inter-w800 {
+   font-family: "Inter", serif;
+       font-optical-sizing: auto;
+       font-weight: 800;
+       font-style: normal;
+}
+.text-xs {
+   font-size: 14px;
+}
+.text-sm {
+   font-size: 16px;
+}
+.text-m {
+   font-size: 18px;
+}
+.text-xxl {
+   font-size: 52px;
+}
+.text-gradient {
+   color: #fd653d; 
+   background-image: linear-gradient(45deg, #fd653d 100%, #ff4167 100%); 
+   background-clip: text; 
+   -webkit-background-clip: text; 
+   -webkit-text-fill-color: transparent; 
+  }
+.text-white {
+   color: white;
+}
