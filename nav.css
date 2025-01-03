@@ -39,7 +39,7 @@
       transition: all ease-in-out 0.3s;
     }
     li:hover {
-      list-style-image: url(../assets/menu_hover.svg);
+      list-style-image: url(./assets/menu_hover.svg);
       font-weight: 600;
       text-shadow: 2px 2px 10px rgba(221, 238, 25, 0.69);
     }
