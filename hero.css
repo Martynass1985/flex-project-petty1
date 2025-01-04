@@ -1,4 +1,5 @@
 #hero {
+  background-position: 100%;
     background: rgb(4, 0, 6);
   background: linear-gradient(
     63deg,
@@ -11,8 +12,8 @@
     gap: 50px;
 }
 .gradient-background {
-  flex-wrap: wrap;
-  height: 635px;
+  flex: 1 1 auto;
+ height: 635px;
   width: 515px;
   border-radius: 240px 240px 1px 1px;
   background: linear-gradient(30.59deg, #140119 1.55%, #5b0e4e 88.54%);
@@ -50,7 +51,12 @@ box-shadow: 0px 0px 20px 1px rgba(209,88,88,1);
   }
 }
 .image-container {
-  max-width: 515px;
+   max-width: 515px;
+   .dogs {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+   }
  
 .dog {
   overflow: hidden;
@@ -87,9 +93,7 @@ box-shadow: 0px 0px 20px 1px rgba(209,88,88,1);
 @media only screen and (max-width: 1100px) {
     .hero {
         flex-direction: column;
-        align-items: center;  
+        align-items: center;
+        justify-content: center;  
     } 
-    .image-container {
-          flex-shrink: 1;
-        }
-}
+    }
