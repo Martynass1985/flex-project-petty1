@@ -10,9 +10,105 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./hero.css" />
-    <link rel="stylesheet" href="./nav.css" />
-    <link rel="stylesheet" href="./typography.css" />
+    <style>#hero {
+  background-position: 100%;
+    background: rgb(4, 0, 6);
+  background: linear-gradient(
+    63deg,
+    rgba(4, 0, 6, 1) -2%,
+    rgba(68, 0, 95, .9) 112%
+  );
+  padding-top: 100px;
+}
+.hero {
+    gap: 50px;
+}
+.gradient-background {
+  flex: 1 1 auto;
+ height: 635px;
+  width: 515px;
+  border-radius: 240px 240px 1px 1px;
+  background: linear-gradient(30.59deg, #140119 1.55%, #5b0e4e 88.54%);
+  box-shadow: 0px 4px 250px 0px #ffc93e40;
+ position: relative;
+}
+.text-container {
+ max-width: 516px;
+  flex-direction: column;
+  gap: 30px;
+  .call {
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    .btn {
+        text-align: center;
+        text-decoration: none;
+        line-height: 48px;
+      width: 160px;
+      height: 48px;
+      border-radius: 40px;
+      background: rgb(255, 90, 55);
+      background: linear-gradient(
+        54deg,
+        rgba(255, 90, 55, 1) 100%,
+        rgba(255, 55, 120, 1) 100%
+         );
+      cursor: pointer;
+    }
+    .btn:hover {
+      -webkit-box-shadow: 0px 0px 20px 1px rgba(209,88,88,1);
+-moz-box-shadow: 0px 0px 20px 1px rgba(209,88,88,1);
+box-shadow: 0px 0px 20px 1px rgba(209,88,88,1);
+    }
+  }
+}
+.image-container {
+   max-width: 515px;
+   .dogs {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+   }
+ 
+.dog {
+  overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+  .dog1 {
+    position: absolute;
+    left: 40px;
+    top: -20px;
+  }
+  .dog2 {
+    position: absolute;
+    top: 160px;
+    left: 15px;
+  }
+  .dog3 {
+    position: absolute;
+    top: 5px;
+    right: 90px;
+  }
+  .dog4 {
+    position: absolute;
+    top: 120px;
+    right: -10px;
+  }
+  .dog5 {
+    position: absolute;
+    bottom: 100px;
+    left: -25px;
+  }
+
+}
+@media only screen and (max-width: 1100px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+    } 
+    }</style>
   </head>
   <body>
     <header>
