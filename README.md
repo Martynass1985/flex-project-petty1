@@ -21,7 +21,7 @@ Here are some snapshots of the project to get you excited:
 
 ### Hero Section
 🐾 A warm welcome for your furry friends!  
-![Hero Section](./assets/hero-snapshot.png)
+![Hero Section]((https://github.com/Martynass1985/flex-project-petty1/raw/main/assets/hero-snapshot.png))
 
 ### Navigation Bar
 ✨ A clean and sleek navigation bar for exploring the site.  
