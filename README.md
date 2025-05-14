@@ -25,7 +25,7 @@ Here are some snapshots of the project to get you excited:
 
 ### Navigation Bar
 ✨ A clean and sleek navigation bar for exploring the site.  
-![Navigation Bar](./assets/nav-snapshot.png)
+![Navigation Bar]([./assets](https://raw.githubusercontent.com/Martynass1985/flex-project-petty1/main/assets/nav-snapshot.png)
 
 ### Adorable Doggos
 🐕 Multiple dog images dynamically positioned for maximum cuteness!  
